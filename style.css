@@ -14,7 +14,7 @@ p{
 .link-button{
     color: rgb(253, 252, 252);
     text-decoration: none;
-    background-image: linear-gradient(rgb(255, 115, 0), rgb(255, 2, 2));
+    background-image: linear-gradient(rgb(248, 148, 66), rgb(252, 92, 0));
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: 700px;
@@ -23,6 +23,7 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -30,9 +31,17 @@ section{
 }
 .half-width img{
     width: 80%;
+    border-radius: 100px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.section2{
+   
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
