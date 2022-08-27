@@ -65,11 +65,21 @@ p{
 }
 
 .experience-item{
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 10px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
     padding-right: 20px;
-
+    border-radius: 15px;
+}
+#full-stack-developer{
+    border-left: 7px solid orangered;
+}
+#social-media-manager{
+    border-left: 7px solid blue;
+}
+footer h4{
+    text-align: center;
+  text-shadow: 2px 2px 5px gray;
 }
